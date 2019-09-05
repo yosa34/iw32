@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header .main_slide{
+    width: 100%;
+    background: url("../img/film.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+header .local_nav{
+    width: 1024px;
+    margin: 60px auto;
+    color: #333;
+}
+header .local_nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+header .local_nav ul li{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 10px solid #ddd;
+
+}
+header .local_nav ul li:last-of-type{
+    border-right: none;
+}
+header .local_nav ul li a{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    text-decoration: none;
+    color: #000;
+}
+header .local_nav ul li a:hover{
+    color: #fff;
+    background: #ccc;
+}
+main article{
+    width: 1024px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+main #screen_box{
+    height: 300px;
+}
+main #screen_box .screen_innr{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+
+}
+main #screen_box .screen_innr div{
+    width: 100%;
+    height: 250px;
+    border: 1px solid #ddd;
+
+}
+main #schedule_box{
+    height: 600px;
+}
+main #schedule_box .schedule_inner{
+    height: 550px;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+}
+main .head{
+    height: 50px;
+    color: #fff;
+    background: #aaa;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+main .head p{
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+}
+main #news_box {
+    height: 600px;
+}
+main #news_box .news_inner{
+    height: 550px;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow: scroll;
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+main #news_box .news_inner dl{
+    width: 100%;
+}
+main #news_box .news_inner dl div{
+    border-bottom: #aaa 1px solid;
+    padding: 20px 10px;
+
+}
+main #news_box .news_inner dl dt{
+    float: left;
+}
+main #news_box .news_inner dl dd{
+    margin-left: 100px;
+}
+main #sns_box{
+    display: flex;
+    justify-content: space-between;
+}
+main #sns_box section{
+    width: 100%;
+    margin-right: 30px;
+    box-sizing: border-box;
+
+}
+main #sns_box section:last-of-type{
+    margin-right: 0;
+}
+main #sns_box img{
+    width: 100%;
+}
+main #sns_box .twitter_inner{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+main #sns_box .facebook_inner{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: scroll;
+}
